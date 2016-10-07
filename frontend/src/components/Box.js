@@ -1,11 +1,11 @@
 import React, { PropTypes, Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Button } from 'react-bootstrap';
 
 export default function Box(props){
   return (
     <div className="top-margin">
         <Col xs={2}>
-          <div>{ props.word }</div>
+          <Button bsStyle="primary">{ props.word }</Button>
         </Col>
       </div>
     );
